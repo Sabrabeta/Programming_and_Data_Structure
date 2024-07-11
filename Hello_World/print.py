@@ -1,1 +1,1 @@
-print ("The best start ever!/n")
+print ("The best start ever !\n")
