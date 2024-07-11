@@ -1,3 +1,2 @@
 Number=3.14159
-number = 3.14
-print(f'Number = {number}\n')
+print(f"Number = {Number:.2f}\n")
