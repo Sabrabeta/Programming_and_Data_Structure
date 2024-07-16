@@ -1,12 +1,12 @@
 
 import random
-
+number = random.randint(-10,10)
 while True:
-    number = int(input("Enter a number between -10 and 10: "))
+    number = int(number)
     
     if number > 0:
-        print("positive")
+        print(f"positive={number}"/n)
     elif number == 0:
-        print("zero")
+        print(f"zero={number}"/n)
     else:
-        print("negative")
+        print(f"negative={number}"/n)
