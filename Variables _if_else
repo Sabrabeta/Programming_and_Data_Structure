@@ -1,13 +1,12 @@
+
 import random
-While ( true ) 
-number = random.randint(-10,10)
-number= input (" Enter Number between -10,10")
-if the number > 0 : 
-print ("positive")
-If the number == 0 :
-print ("the number zero")
-If the number < 0 :
- print (" is negative ")
 
-
-
+while True:
+    number = int(input("Enter a number between -10 and 10: "))
+    
+    if number > 0:
+        print("positive")
+    elif number == 0:
+        print("zero")
+    else:
+        print("negative")
