@@ -1,7 +1,6 @@
-
+#!/usr/bin/python3
 import random
 number = random.randint(-10,10)
-while True:
     number = int(number)
     
     if number > 0:
